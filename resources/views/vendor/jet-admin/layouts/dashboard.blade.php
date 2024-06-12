@@ -205,11 +205,9 @@
             <!-- END Page Header -->
 
             <!-- Page Content -->
-            <main id="page-content" class="max-w-full pt-20 lg:pt-0">
+            <main id="page-content" class="max-w-full">
                 <!-- Page Section -->
-                <div class="container mx-auto p-4 lg:p-8 xl:max-w-5xl">
-                    {{ $slot }}
-                </div>
+                {{ $slot }}
                 <!-- END Page Section -->
             </main>
             <!-- END Page Content -->

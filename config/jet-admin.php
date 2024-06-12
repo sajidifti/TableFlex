@@ -38,6 +38,12 @@ return [
             'icon' => 'home',
         ],
         [
+            'name' => 'Tables',
+            'route' => 'tables',
+            'active_route' => 'tables*',
+            'icon' => 'table-cells',
+        ],
+        [
             'name' => 'Profile',
             'route' => 'profile.show',
             'active_route' => 'profile.show',
